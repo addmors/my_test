@@ -20,4 +20,3 @@ y = array[:,4]
 # Разделение X и y на обучающую и контрольную выборки 
 X_train, X_validation, Y_train, Y_validation = train_test_split(X, y, test_size=0.20, random_state=1, nb_wrod = 5000)
 # Создаем прогноз на контрольной выборке
-stas = 0
