@@ -15,7 +15,7 @@ class Search():
         self.searcher = ""
         self.tonals = []
         self.sample = []
-        self.myFile = open('example2.csv', 'w', encoding='utf-8')
+        self.myFile = open('sample.csv', 'w', encoding='utf-8')
         self.wrinte = csv.writer(self.myFile)
 
     def setSearcher(self, name):
