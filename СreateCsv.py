@@ -48,7 +48,7 @@ class Search():
         self.titles = [x.text for x in self.titles]
         self.descriptions = [x.text for x in self.descriptions]
         for i in range(len(self.titles)):
-            self.tonals.append(1-i/100)
+            self.tonals.append(1 if(i<4) else -1 if(i>8) else 0)
         self.genSample()
 
     def genSample(self):
